@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.letter2 { margin-top: 30px;
+text-align: center;
+  color: rgb(87, 72, 32);
+}
+
+.letter{
+  text-align: center;
+}
+.cards-container {
+ display: flex;
+  gap: 20px;             
+  justify-content: center;
+  
+}
+.card {
+  background: #f5bfd5;
+  border: 1px solid #d4a5b0;
+  border-radius: 12px;
+  padding: 15px;
+  width: 280px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.ora {
+  color: #b85c5c;
+  margin-bottom: 10px;
+}
+.footer{
+margin: 20px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+.footer1{
+  margin-top: 10px;
+}

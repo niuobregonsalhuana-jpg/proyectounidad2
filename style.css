@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #f5d3da;
+}
+
+body {
+  background-color: transparent;
+}
+.custom-navbar {
+  background-color: #e0cfd2;
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.titulo2 input {
+  padding: 1px 10px;
+  border: 1px solid #180202;
+  outline: none;
+  min-width: 200px;
+}
+.titulo2 button {
+  padding: 5px 10px;
+  background-color: #e2bcc3;
+  color: rgb(146, 84, 84);
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.titulo2 button:hover,
+.titulo2 button:focus {
+  background-color: #cf94a1;
+}
+
+.text{
+  text-align: center;
+  margin-top: 40px;
+}
+.image{ 
+margin-top: 10px;
+text-align: center;
+}
+.footer{
+margin: 20px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+.footer1{
+  margin-top: 10px;
+}

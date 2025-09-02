@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #f19faf;
+}
+
+body {
+  background-color: transparent;
+}
+
+.custom-navbar {
+  background-color: #fff7f9;
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.titulo2 input {
+  padding: 4px 10px;
+  border: 1px solid #180202;
+  outline: none;
+  min-width: 200px;
+}
+.titulo2 button {
+  padding: 10px 15px;
+  background-color: #e2bcc3;
+  color: rgb(146, 84, 84);
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.titulo2 button:hover,
+.titulo2 button:focus {
+  background-color: #cf94a1;
+}
